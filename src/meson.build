@@ -8,7 +8,8 @@ executable('cpphttpd',
   'main.cpp',
   include_directories: src_inc,
   dependencies: [
-    libfmt
+    libfmt,
+    libBoostURL
   ]
   # link_with: cpphttpd_lib
 )
