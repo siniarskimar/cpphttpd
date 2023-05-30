@@ -12,6 +12,7 @@
 
 #include <cstdint>
 #include <signal.h>
+#include <boost/asio.hpp>
 
 #include <unistd.h>
 #include <sys/socket.h>

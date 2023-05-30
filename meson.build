@@ -6,6 +6,7 @@ project('cpphttpd', ['c', 'cpp'],
 )
 
 libfmt = dependency('fmt', required: true)
+libBoost = dependency('boost')
 libBoostURL = dependency('boost', modules: ['url'])
 src_inc = include_directories('./src')
 
