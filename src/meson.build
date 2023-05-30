@@ -12,5 +12,7 @@ executable('cpphttpd',
     libBoost,
     libBoostURL,
   ],
+  cpp_pch: 'pch/pch.hpp'
   # link_with: cpphttpd_lib
 )
+
