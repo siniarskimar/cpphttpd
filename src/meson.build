@@ -6,7 +6,9 @@
 
 executable('cpphttpd',
   'main.cpp',
-  include_directories: src_inc,
+  include_directories: [
+    include_directories('include')    
+  ],
   dependencies: [
     libfmt,
     libBoost,
