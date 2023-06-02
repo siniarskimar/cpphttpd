@@ -11,6 +11,10 @@ executable('cpphttpd',
     libfmt,
     libBoost,
   ],
+  link_args: [
+    '-lboost_system',
+    '-lboost_url'
+  ],
   cpp_pch: 'pch/pch.hpp'
   # link_with: cpphttpd_lib
 )
